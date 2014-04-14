@@ -1,0 +1,562 @@
+@charset "utf-8";
+
+/* CSS Document
+
+    Copyright (c) Freeoscommerce.com 2011
+
+	This file is part of a freeoscommerce.com template.  Please visit http://www.freeoscommerce.com for licensing and other information.
+*/
+
+html {
+width: 100%;
+height: 100%; 
+}
+
+body#freeoscommerce_003 {
+margin: 0;
+padding: 0;
+background: #0ab00a;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+color: #000000;
+}
+
+/* Main links */
+
+body#freeoscommerce_003 a:link {
+text-decoration: none;
+color: #099509;
+}
+
+body#freeoscommerce_003 a:visited {
+text-decoration: none;
+color: #099509;
+}
+
+body#freeoscommerce_003 a:hover {
+text-decoration: none;
+color: #000000;
+}
+
+body#freeoscommerce_003 a:active {
+text-decoration: none;
+color: #099509;
+}
+
+/* Menu links */
+
+body#freeoscommerce_003 #top_menu a:link {
+color: #ffffff;
+text-decoration: none;
+}
+
+body#freeoscommerce_003 #top_menu a:visited {
+color: #ffffff;
+text-decoration: none;
+}
+
+body#freeoscommerce_003 #top_menu a:hover {
+color: #0ab00a;
+text-decoration: none;
+}
+
+body#freeoscommerce_003 #top_menu a:active {
+color: #ffffff;
+text-decoration: none;
+}
+
+#top_menu span {
+margin: 0 12px 0 12px;
+}
+
+/* Headings */
+
+body#freeoscommerce_003 h1 {
+font-size: 22px;
+font-weight: normal;
+text-decoration: none;
+}
+
+body#freeoscommerce_003 h2 {
+font-size: 20px;
+font-weight: normal;
+text-decoration: none;
+}
+
+body#freeoscommerce_003 h3 {
+font-size: 18px;
+font-weight: normal;
+text-decoration: none;
+}
+
+body#freeoscommerce_003 h4 {
+font-size: 16px;
+font-weight: normal;
+text-decoration: none;
+}
+
+body#freeoscommerce_003 h5 {
+font-size: 14px;
+font-weight: normal;
+text-decoration: none;
+}
+
+body#freeoscommerce_003 h6 {
+font-size: 12px;
+font-weight: normal;
+text-decoration: none;
+}
+
+hr.accessibility {
+height: 1px;
+color: #403207;
+}
+
+div#navigation {
+margin-top: 0px;
+margin-bottom: 15px;
+color: #000000;
+}
+div#wrapper1 {
+z-index: 3;
+position: relative;
+top: 65px;
+left: 50%;
+margin-left: -501px;
+width: 1003px;
+min-height: 600px;
+padding-bottom: 40px;
+}
+
+div#wrapper2 {
+z-index: 4;
+position: relative;
+top: 0px;
+left: 38px;
+width: 927px;
+min-height: 600px;
+background: #ffffff;
+}
+
+div#header_wrapper {
+z-index: 5;
+position: relative;
+top: 9px;
+left: 9px;
+width: 908px;
+min-height: 71px;
+margin-bottom: 18px;
+}
+
+div#header {
+z-index: 7;
+position: relative;
+top: 0px;
+padding: 12px 12px 0 12px;
+}
+
+div#top_menu {
+z-index: 8;
+position: relative;
+padding-top: 14px;
+width: 100%;
+text-align: center;
+color: #ffffff;
+font-size: 15px;
+}
+
+div#header_background1 {
+z-index: 5;
+position: absolute;
+top: 0px;
+bottom: 0px;
+width: 908px;
+background: #000000;
+}
+
+div#header_background2 {
+z-index: 6;
+position: absolute;
+top: 0px;
+height: 71px;
+width: 908px;
+background: url(images/freeoscommerce_003/header_footer_background.jpg) top center repeat-x;
+}
+
+div#wrapper3 {
+width: 908px;
+overflow: auto;
+position: relative;
+background: url(images/freeoscommerce_003/content_background.jpg) top center repeat-y;
+left: 9px;
+margin-bottom: 9px;
+}
+
+div#content_wrapper {
+float: left;
+position: relative;
+left: 187px;
+width: 515px;
+min-height: 443px;
+margin-left: 9px;
+}
+
+div#content {
+position: relative;
+top: 0px;
+padding: 12px;
+width: 491px;
+overflow: hidden;
+}
+
+div#left_sidebar_wrapper {
+float: left;
+position: relative;
+left: -525px;
+width: 187px;
+min-height: 443px;
+background: url(images/freeoscommerce_003/sidebar_background.jpg) top center repeat-x;
+}
+
+div#left_sidebar {
+position: relative;
+top: 0px;
+padding: 12px;
+width: 163px;
+overflow: hidden;
+}
+
+div#right_sidebar_wrapper {
+float: left;
+width: 187px;
+min-height: 443px;
+margin-left: 10px;
+background: url(images/freeoscommerce_003/sidebar_background.jpg) top center repeat-x;
+}
+
+div#right_sidebar {
+position: relative;
+top: 0px;
+padding: 12px;
+width: 163px;
+overflow: hidden;
+}
+
+div#left_shadow {
+z-index: 4;
+position: absolute;
+left: 0px;
+top: 0px;
+width: 38px;
+height: 429px;
+background: url(images/freeoscommerce_003/left_shadow.jpg) top center no-repeat;
+}
+
+div#right_shadow {
+z-index: 4;
+position: absolute;
+right: 0px;
+top: 0px;
+width: 38px;
+height: 429px;
+background: url(images/freeoscommerce_003/right_shadow.jpg) top center no-repeat;
+}
+
+div#top_background {
+z-index: 2;
+position: absolute;
+top: 0px;
+width: 100%;
+height: 304px;
+background: url(images/freeoscommerce_003/top_background.jpg) top center no-repeat;
+}
+
+div#main_background {
+z-index: 1;
+position: absolute;
+top: 0px;
+width: 100%;
+height: 507px;
+background: url(images/freeoscommerce_003/main_background.jpg) top center repeat-x;
+}
+
+/* Store name and/or logo */
+
+div#website_name {
+z-index: 8;
+position: absolute;
+top: 0px;
+color: #ffffff;
+text-align: right;
+width: 800px;
+top: 21px;
+left: 50%;
+margin-left: -400px;
+font-size: 24px;
+letter-spacing: 1.5px;
+}
+
+div#website_name a:link {
+color: #ffffff;
+}
+
+div#website_name a:visited {
+color: #ffffff;
+}
+
+div#website_name a:hover {
+color: #ffffff;
+}
+
+div#website_name a:active {
+color: #ffffff;
+}
+
+/* Footer */
+
+div#footer {
+z-index: 5;
+position: relative;
+left: 9px;
+width: 908px;
+min-height: 71px;
+padding-bottom: 9px;
+text-align: center;
+color: #ffffff;
+}
+
+div#footer_background1 {
+z-index: 6;
+position: absolute;
+top: 0px;
+bottom: 9px;
+left: 0px;
+width: 908px;
+background: #403106;
+}
+
+div#footer_background2 {
+z-index: 7;
+position: absolute;
+top: 0px;
+left: 0px;
+height: 71px;
+width: 908px;
+background: url(images/freeoscommerce_003/header_footer_background.jpg) top center repeat-x;
+}
+
+div#footer_content {
+z-index: 8;
+position: relative;
+padding-left: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+width: 870px;
+min-height: 50px;
+}
+
+div#footer .grid_24 {
+width: 100%;
+}
+
+/* Footer links */
+
+div#footer a:link {
+color: #099509;
+}
+
+div#footer a:visited {
+color: #099509;
+}
+
+div#footer a:hover {
+color: #000000;
+}
+
+div#footer a:active {
+color: #099509;
+}
+
+/* Message Stack */
+
+body#freeoscommerce_003 .messageStackError, body#freeoscommerce_003 .messageStackWarning { 
+font-family: Verdana, Arial, sans-serif; 
+font-size: 10px; 
+color: #000000;
+background-color: #ffb3b5; 
+}
+
+body#freeoscommerce_003 .messageStackSuccess { 
+font-family: Verdana, Arial, sans-serif; 
+font-size: 10px; 
+color: #000000;
+background-color: #0089d0; 
+}
+
+/* Product Listing */
+
+div.ui-widget-header {
+background: none;
+border: none;
+}
+
+table.productListingData {
+background: #ffffff;
+color: #000000
+}
+
+body#freeoscommerce_003 table.productListingData tr.alt td {
+background: #ffffff;
+}
+
+div.productListTable {
+background: none;
+border: none;
+}
+
+/* Columns */
+
+div#left_sidebar div.infoBoxHeading, div#right_sidebar div.infoBoxHeading {
+background: none;
+border: none;
+color: #000000;
+}
+
+div#left_sidebar div.infoBoxContents, div#right_sidebar div.infoBoxContents {
+background: none;
+border: none;
+color: #000000;
+}
+
+table.ui-widget-content {
+border: none;
+color: #000000;
+background: none;
+}
+
+div#left_sidebar table.ui-widget-content a:link, div#right_sidebar table.ui-widget-content a:link {
+color: #099509;
+}
+
+div#left_sidebar table.ui-widget-content a:visited, div#right_sidebar table.ui-widget-content a:visited {
+color: #099509;
+}
+
+div#left_sidebar table.ui-widget-content a:hover, div#right_sidebar table.ui-widget-content a:hover {
+color: #000000;
+}
+
+div#left_sidebar table.ui-widget-content a:active, div#right_sidebar table.ui-widget-content a:active {
+color: #099509;
+}
+
+/* Info box */
+
+.infoBoxContents {
+color: #000000;
+background: none;
+border: none;
+}
+
+/* Checkout */
+
+.checkoutBarFrom, .checkoutBarTo { 
+font-family: Verdana, Arial, sans-serif; 
+font-size: 10px; 
+color: #8c8c8c;
+}
+
+body#freeoscommerce_003 .checkoutBarCurrent { 
+font-family: Verdana, Arial, sans-serif; 
+font-size: 10px; 
+color: #000000; 
+}
+
+body#freeoscommerce_003 div.ui-progressbar-value {
+background: #099509;
+}
+body#freeoscommerce_003 .moduleRow { }
+
+body#freeoscommerce_003 .moduleRowOver { 
+background-color: #ecdfb5; 
+cursor: pointer; 
+cursor: hand; 
+}
+body#freeoscommerce_003 .moduleRowSelected { 
+background-color: #d8cca7; 
+}
+
+a span.orderEdit {
+color: #0aaf0a;
+}
+
+/* Date picker */
+
+#freeoscommerce_003 table.ui-datepicker-calendar a:link {
+color: #000000;
+}
+
+/* Buttons */
+
+.ui-priority-primary, .ui-widget-content .ui-priority-primary, .ui-widget-header .ui-priority-primary { 
+font-weight: bold; 
+}
+
+.ui-priority-secondary, .ui-widget-content .ui-priority-secondary,  .ui-widget-header .ui-priority-secondary { 
+opacity: .7; 
+filter:Alpha(Opacity=70); 
+font-weight: normal; 
+}
+
+body#freeoscommerce_003 a:link span.ui-button-text {
+font-weight: bold; 
+color: #ffffff;
+}
+
+body#freeoscommerce_003 a:visited span.ui-button-text {
+font-weight: bold; 
+color: #ffffff;
+}
+
+body#freeoscommerce_003 a:hover span.ui-button-text {
+font-weight: bold; 
+color: #ffffff;
+}
+
+body#freeoscommerce_003 a:active span.ui-button-text {
+font-weight: bold; 
+color: #ffffff;
+}
+
+body#freeoscommerce_003 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { 
+border: 1px solid #ffffff; 
+background: #079d07 url(images/freeoscommerce_003/ui-bg_glass_85_dfeffc_1x400.png) 50% 50% repeat-x; 
+font-weight: bold; 
+color: #ffffff; 
+}
+body#freeoscommerce_003 .ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited { color: #2e6e9e;
+text-decoration: none;
+}
+body#freeoscommerce_003 .ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus { 
+border: 1px solid #ffffff;
+background: #088108 url(images/freeoscommerce_003/ui-bg_glass_75_d0e5f5_1x400.png) 50% 50% repeat-x;
+font-weight: bold;
+color: #ffffff;
+}
+body#freeoscommerce_003 .ui-state-hover a, .ui-state-hover a:hover { 
+color: #ffffff;
+text-decoration: none;
+}
+body#freeoscommerce_003 .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active { 
+border: 1px solid #860303;
+background: #088108 url(images/freeoscommerce_003/ui-bg_inset-hard_100_f5f8f9_1x100.png) 50% 50% repeat-x;
+font-weight: bold;
+color: #ffffff;
+}
+body#freeoscommerce_003 .ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited { 
+color: #ffffff;
+text-decoration: none;
+}
+body#freeoscommerce_003 .ui-widget :active { 
+outline: none;
+}
